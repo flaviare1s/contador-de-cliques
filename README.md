@@ -1,6 +1,24 @@
 # Contador de Cliques
 
-Uma aplicação React para contagem de cliques, desenvolvida como parte do projeto de certificação 1 da trilha 3 do DEVstart.
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
+
+<div align="center">
+  <h3>🎯 Aplicação React para Contagem de Cliques</h3>
+  <p>Desenvolvida como parte do projeto de certificação 1 da trilha 3 do DEVstart</p>
+  
+  <p>
+    <a href="https://contador-de-cliques-drab.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel" alt="Deploy on Vercel" />
+    </a>
+  </p>
+  
+  <p>
+    <a href="https://contador-de-cliques-drab.vercel.app/" target="_blank">🚀 Ver Demo ao Vivo</a>
+  </p>
+</div>
+
+---
 
 ## Sobre o Projeto
 
@@ -54,12 +72,19 @@ npm start
 
 A aplicação estará disponível em [http://localhost:3000](http://localhost:3000)
 
-## Tecnologias Utilizadas
+## 🚀 Deploy
 
-- **React** - Biblioteca JavaScript para construção de interfaces
+A aplicação está hospedada na Vercel e pode ser acessada através do link:
+
+**🌐 [https://contador-de-cliques-drab.vercel.app/](https://contador-de-cliques-drab.vercel.app/)**
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React 19.2.1** - Biblioteca JavaScript para construção de interfaces
 - **React Hooks** - useState para gerenciamento de estado
 - **CSS3** - Estilização com gradientes, animações e design responsivo
 - **Create React App** - Configuração inicial do projeto
+- **Vercel** - Plataforma de deploy e hospedagem
 
 ## Como Funciona
 
@@ -68,15 +93,15 @@ O projeto utiliza o hook `useState` do React para gerenciar o estado do contador
 ```javascript
 const [count, setCount] = useState(0);
 
- function incrementarContador() {
-    setCount(count + 1)
-  }
-  function decrementarContador() {
-    setCount(count - 1)
-  }
-  function resetarContador() {
-    setCount(0)
-  }
+function incrementarContador() {
+  setCount(count + 1);
+}
+function decrementarContador() {
+  setCount(count - 1);
+}
+function resetarContador() {
+  setCount(0);
+}
 ```
 
 Cada botão está conectado a uma função específica que atualiza o estado, causando a re-renderização do componente com o novo valor.
@@ -97,6 +122,44 @@ O projeto é totalmente responsivo, com breakpoint em 480px para otimizar a expe
 - Redução de padding e espaçamentos
 - Manutenção da funcionalidade completa
 
-## Agradecimentos
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/667eea/ffffff?text=Adicione+uma+screenshot+da+aplicação" alt="Screenshot da Aplicação" width="100%" />
+</div>
+
+## 📝 Estrutura do Projeto
+
+```
+contador-de-cliques/
+├── public/
+│   ├── index.html
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   └── Contador.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+## 📄 Licença
+
+Este projeto foi desenvolvido como parte de um projeto educacional.
+
+## 👤 Autor
+
+**Flavia Reis**
+
+- GitHub: [@flaviare1s](https://github.com/flaviare1s)
+- Projeto: [contador-de-cliques](https://github.com/flaviare1s/contador-de-cliques)
+
+## 🙏 Agradecimentos
+
+- DEVstart pela oportunidade de aprendizado
+- Comunidade React pela documentação excelente
 
 - Projeto desenvolvido como parte do programa DEVstart
